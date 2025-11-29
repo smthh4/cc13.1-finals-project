@@ -1,0 +1,4 @@
+PatientID,DateTime,Doctor,Diagnosis,Treatment
+P8f52da7f,2025-11-29 11:18:38,doc,sick,medicine
+P8f52da7f,2025-11-29 11:18:38,doc,sick,medicine
+P044dbb6f,2025-11-29 11:33:47,Neil Sudaria,headaches,medicine; rest; and drink fluids
