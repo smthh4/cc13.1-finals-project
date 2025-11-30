@@ -2,7 +2,6 @@ package clinic.Models;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Formatter;
 
 public class ClinicHistoryRecord {
 
@@ -24,7 +23,7 @@ public class ClinicHistoryRecord {
         this.treatment = treatment;
     }
 
-    // Getters (from second version)
+    // All getter methods needed
     public LocalDateTime getDateTime() {
         return timestamp;
     }
