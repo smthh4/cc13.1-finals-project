@@ -1,6 +1,5 @@
 package clinic.main;
 import clinic.ClinicManagementSystem;
-
 import java.util.Scanner;
 
 public class Main {
@@ -27,7 +26,6 @@ public class Main {
                         cms.treatNextPatient(scanner);
                         break;
                     case 3:
-
                         cms.viewAllPatientHistory(scanner);
                         break;
                     case 4:
@@ -52,7 +50,7 @@ public class Main {
 
     private static void displayMenu() {
         System.out.println("\n======== Main Menu ===========");
-        System.out.println("[1] Check-In Patient");
+        System.out.println("[1] Set Appointment");
         System.out.println("[2] Treat Next Patient");
         System.out.println("[3] View Patient History");
         System.out.println("[4] Doctor List");
